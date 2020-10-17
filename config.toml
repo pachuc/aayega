@@ -2,7 +2,7 @@
 baseurl = "localhost:1313"
 title = "Aayega Technologies"
 languageCode = "en-us"
-theme = "hugo-elate-theme"
+theme = "mytheme"
 
 [params]
   
