@@ -43,39 +43,36 @@ theme = "mytheme"
   
   # Hero section
   [params.hero]
-    title = "Freedom in the Cloud"
-    subtitle = 'We empower businesses by providing scalable, secure, and vendor agnostic technological solutions. Let us handle to technology, so you can stay focussed on your customers.'
+    title = "Providing Solutions to Help Your Business Bloom"
+    subtitle = "Let us worry about the technology, so you can focus on the business."
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Security"
+    description = "Security is the most important thing in modern development. Without proper security, one brings risk not only to themselves, but also to all their customers. Yet, often security comes as an afterthought. This can lead to fundamentally insecure designs, that can be very difficult to transition away from or redesign. We believe in putting security first, so that solutions can be secure from the design up."
     url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
+    icon = "icon-lock"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Thoughtful Design"
+    description = "There are many reasons solutions may be designed without thought. However, whether it is to save on costs, time, or just using something known, it rarely works out in the long run. A well designed system will be faster, cheaper, and easier to maintain in the long run. We believe in spending time up front designing a well architected solution, using the right technologies, in order to deliver the highest quality product for our customers."
     url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
+    icon = "icon-bulb"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Flexibility"
+    description = "Vendor and technology lock in can be a huge issue in modern development, even more so in the age of cloud computing. We believe in leaning towards vendor agnostic and portable solutions whenever possible. This will give the customer the most freedom in the future. Much like a well-architected design, a flexible design will also be faster, cheaper, and easier to maintain in the long run."
     url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
+    icon = "icon-shuffle"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -84,49 +81,49 @@ theme = "mytheme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
+    title = "Solutions"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Project 1"
+      title = "Cloud"
       subtitle = "Branding"
 
     [[params.work.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Project 2"
+      title = "Data Science"
       subtitle = "Design"
 
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Project 3"
+      title = "Cybersecurity"
       subtitle = "Design"
 
     [[params.work.row]]
       img = "work_4.jpg"
       alt = "Image4"
-      title = "Project 4"
+      title = "VR & AR"
       subtitle = "Design"
 
     [[params.work.row]]
       img = "work_5.jpg"
       alt = "Image5"
-      title = "Project 5"
+      title = "IOT"
       subtitle = "Design"
 
     [[params.work.row]]
       img = "work_6.jpg"
       alt = "Image6"
-      title = "Project 6"
+      title = "Web and Mobile Applications"
       subtitle = "Design"
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -153,7 +150,7 @@ theme = "mytheme"
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -183,8 +180,8 @@ theme = "mytheme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
+      name = "Bhadra Chembukave"
+      position = "CEO"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person1.jpg"
       alt = "Person1"
@@ -195,8 +192,8 @@ theme = "mytheme"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
+      name = "Pachu Chembukave"
+      position = "CTO"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person2.jpg"
       alt = "Person2"
@@ -204,23 +201,11 @@ theme = "mytheme"
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
       ]      
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -259,7 +244,7 @@ theme = "mytheme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
