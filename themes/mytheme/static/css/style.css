@@ -476,6 +476,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
 }
+
 #fh5co-intro .fh5co-block {
   width: 33.33%;
   float: left;
@@ -1252,6 +1253,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
+  margin:auto;
   background: #52d3aa;
   color: #fff;
   border: none !important;

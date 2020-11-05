@@ -49,24 +49,26 @@ theme = "mytheme"
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
+    button = "Read More"
+    url = "/ourvalues"
 
   [[params.intro.item]]
     title = "Security"
-    description = "Security is the most important thing in modern development. Without proper security, one brings risk not only to themselves, but also to all their customers. Yet, often security comes as an afterthought. This can lead to fundamentally insecure designs, that can be very difficult to transition away from or redesign. We believe in putting security first, so that solutions can be secure from the design up."
+    description = "Security is the most important factor in modern development. We believe in putting security first, so that solutions can be secure from the design up."
     url = "#"
     icon = "icon-lock"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Thoughtful Design"
-    description = "There are many reasons solutions may be designed without thought. However, whether it is to save on costs, time, or just using something known, it rarely works out in the long run. A well designed system will be faster, cheaper, and easier to maintain in the long run. We believe in spending time up front designing a well architected solution, using the right technologies, in order to deliver the highest quality product for our customers."
+    description = "A well designed system will be faster, cheaper, and easier to maintain in the long run. We believe in spending time up front designing a well architected solution."
     url = "#"
     icon = "icon-bulb"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Flexibility"
-    description = "Vendor and technology lock in can be a huge issue in modern development, even more so in the age of cloud computing. We believe in leaning towards vendor agnostic and portable solutions whenever possible. This will give the customer the most freedom in the future. Much like a well-architected design, a flexible design will also be faster, cheaper, and easier to maintain in the long run."
+    description = "We believe in leaning towards vendor agnostic and portable solutions whenever possible. This gives the customer the most freedom in the future."
     url = "#"
     icon = "icon-shuffle"
     img = "img_10.jpg"
@@ -245,16 +247,16 @@ theme = "mytheme"
   [params.contact]
     enable = true
     map = false
-    form = true
+    form = false
     title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "2513 Wheat Meadow Ct, <br> Herndon, VA 20171"],
+        ["icon-phone", "571-331-9411"],
+        ["icon-envelope", "info@aayega.tech"],
+        ["icon-globe", '<a href="http://aayega.tech/" target="_blank">aayega.tech</a>']
       ]
 
     name = "Name"
@@ -266,7 +268,7 @@ theme = "mytheme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = 'copyright text'
     links = [
         ["icon-twitter", "#twitter"],
         ["icon-facebook", "#facebook"],
