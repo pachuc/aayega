@@ -50,7 +50,7 @@ theme = "mytheme"
   # Available icons: http://simplelineicons.com/
   [params.intro]
     button = "Read More"
-    url = "/ourvalues"
+    url = "/about"
 
   [[params.intro.item]]
     title = "Security"
