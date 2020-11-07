@@ -1,10 +1,10 @@
 	<section id="fh5co-services" data-section="services">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 section-heading text-left">
-					<h2 class=" left-border to-animate">{{ with .Site.Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
+				<div class="col-md-12 section-heading text-center" style="padding-bottom: 0px; margin-bottom: 0px;">
+					<h2 class=" center-border to-animate">{{ with .Site.Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
 					<div class="row">
-						<div class="col-md-8 subtext to-animate">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
 							<h3>{{ with .Site.Params.services.description }}{{ . | markdownify }}{{ end }}</h3>
 						</div>
 					</div>
@@ -16,6 +16,7 @@
 					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
 					<h3>{{ .title | markdownify }}</h3>
 					<p>{{ .description | markdownify }}</p>
+					<p><a href="{{.url}}" class="btn btn-primary">Read More</a></p>
 				</div>
 				<div class="clearfix visible-sm-block"></div>
 			{{ end }}

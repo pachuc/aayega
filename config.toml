@@ -47,7 +47,7 @@ theme = "mytheme"
     subtitle = "Let us worry about the technology, so you can focus on the business."
  
   # Intro section
-  # Available icons: http://simplelineicons.com/
+  # Available icons: https://simplelineicons.github.io/
   [params.intro]
     button = "Read More"
     url = "/about"
@@ -82,7 +82,7 @@ theme = "mytheme"
 
   # Work section
   [params.work]
-    enable = true
+    enable = false
     title = "Solutions"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
@@ -152,32 +152,49 @@ theme = "mytheme"
 
   # Services section
   [params.services]
-    enable = false
+    enable = true
     title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "We offer a broad range of services to help businesses get started or continue growing."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Cloud"
+      description = "Resiliant and flexible cloud migration, development, deployment and security."
+      icon = "icon-social-soundcloud"
+      url = "/services/cloud"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      title = "Data Science"
+      description = "Data collection, organization, insights, metrics, machine learning and more."
+      icon = "icon-graph"
+      url = "/services/datascience"
+    
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "Cybersecurity"
+      description = "Penetration testing, environment assessment, active monitoring, and secure development guidance."
+      icon = "icon-lock"
+      url = "/services/cybersecurity"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+    [[params.services.item]]
+      title = "VR &amp; AR"
+      description = "Augmented and virtual reality solutions for simulation, training, and optimizing business process."      
+      icon = "icon-eye"
+      url = "/services/vrandar"
+    
+    [[params.services.item]]
+      title = "IOT"
+      description = "Internet of Things device development, service development, and security guidance."      
+      icon = "icon-feed"
+      url = "/services/iot"
+    
+    [[params.services.item]]
+      title = "Web &amp; Mobile Applications"
+      description = "Android, iphone, web and cross-platform development. Modern best practices for development, deployment and maintenance."      
+      icon = "icon-screen-smartphone"
+      url = "/services/webandmobile"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -249,7 +266,7 @@ theme = "mytheme"
     map = false
     form = false
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = ""
     
     # Available icons: http://simplelineicons.com/
     details = [
@@ -267,7 +284,7 @@ theme = "mytheme"
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = 'copyright text'
     links = [
         ["icon-twitter", "#twitter"],
