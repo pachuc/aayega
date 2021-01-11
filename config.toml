@@ -271,8 +271,8 @@ theme = "mytheme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "2513 Wheat Meadow Ct, <br> Herndon, VA 20171"],
-        ["icon-phone", "571-331-9411"],
-        ["icon-envelope", "info@aayega.tech"],
+        ["icon-phone", "571-485-9077"],
+        ["icon-envelope", "aayegatech@gmail.com"],
         ["icon-globe", '<a href="http://aayega.tech/" target="_blank">aayega.tech</a>']
       ]
 
