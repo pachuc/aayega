@@ -158,7 +158,7 @@ theme = "mytheme"
 
     [[params.services.item]]
       title = "Cloud"
-      description = "Resiliant and flexible cloud migration, development, deployment and security."
+      description = "Resilient and flexible cloud migration, development, deployment and security."
       icon = "icon-social-soundcloud"
       url = "/services/cloud"
 
